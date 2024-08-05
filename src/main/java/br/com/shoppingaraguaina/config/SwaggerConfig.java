@@ -43,7 +43,7 @@ public class SwaggerConfig {
 //    @NotNull
     private List<Server> getServers() {
         List<Server> servers = new ArrayList<>();
-        servers.add(new Server().url("/api/v1"));
+//        servers.add(new Server().url("/api/v1"));
         return servers;
     }
 }
